@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: plum;
+    font-size: 1rem;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    background:greenyellow;
+    padding: 15px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+header ul li a{
+    color:black;
+    text-decoration: none;
+}
+#project {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.card{
+    width: 260px;
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.card button{
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+footer{        
+    text-align: center;
+    padding: 20px;
+    background:yellowgreen;
+    color: black;}
+    #contact{
+        text-align: center;
+        margin-top: 20px;
+    }  
+    @media (max-width: 600px) {
+        .project {
+            flex-direction: column;
+            align-items: center;
+        }
+    } 
